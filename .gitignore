@@ -1,0 +1,4 @@
+.stack-work/
+*.cabal
+*~
+dot_stack_linux.tbz
