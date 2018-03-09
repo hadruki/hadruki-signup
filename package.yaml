@@ -21,6 +21,9 @@ description:         Please see the README on Github at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
+- servant-server
+- text
+- aeson
 
 library:
   source-dirs: src
@@ -35,7 +38,8 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - hadruki-signup
-    - servant-server
+    - wai
+    - warp
 
 tests:
   hadruki-signup-test:

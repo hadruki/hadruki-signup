@@ -1,6 +1,9 @@
 module Main where
 
-import Lib
+import SignupApi
+
+import Network.Wai
+import Network.Wai.Handler.Warp
 
 main :: IO ()
-main = someFunc
+main = run 3002 app
