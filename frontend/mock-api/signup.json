@@ -1,0 +1,9 @@
+{
+  "signup": [
+    {"username": "username", "email": "email", "password": "password" }
+  ], 
+  "users": [
+    {"username": "dvekeman", "email": "dieter.vekeman@gmail.com", "token": "tok123" },
+    {"username": "500", "email": "500@bad.com", "token": "noop" }
+  ]
+}
